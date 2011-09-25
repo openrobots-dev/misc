@@ -8,10 +8,18 @@ This guide will explain how to setup a complete toolchain and graphical IDE base
 
 This guide wants to give all the tools needed to produce an ARM executable binary file, to flash it on a microcontroller and to run and debug it, with or without a graphical IDE.
 
-The cross-development process needs different components:
+The guide covers the installation and setup of the components needed to get a working cross-development toolchain:
 
 * a compiler to produce executable ARM Cortex-Mx code
 * a linker script to generate the binary file
+* a script to flash the firmware on the microcontroller
+* a makefile to automate the process
+
+The guide include some optional topics too:
+
+* the use of OpenOCD and GDB to debug the code running on the target microcontroller
+* the installation of Eclipse IDE to get a graphical development solution
+* the setup of ChibiOS/RT and the execution of a demo project
 
 
 ### What this guide does not cover ###
